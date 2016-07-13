@@ -50,13 +50,6 @@ Load All Necessary Libraries and Functions
                    `fitting`  : access to astropy fitting routines
     `glob`       : grab list of files in directory
 
-    -- Not Used Yet --
-    `astroML`    : better histogram function for plotting
-    `sklearn`    : `externals`: imports operating system (storage) level function (i.e. joblib)
-    `statsmodels`: `robust`   : robust statistical modeling packages; `scale.mad` == median average distance
-    `sys`        : python-os level functions (i.e. path)
-    `time`       : compute and convert current timestamps from python / os
-
 ```python
 # Matplotlib for Plotting
 %matplotlib inline
