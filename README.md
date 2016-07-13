@@ -3,11 +3,7 @@
 ---
 
 Many ground and space telescopes missions contain the capacity to perform photometric time series observations.  
-In order to process that data, it is important to identify the host star, accurately estimate it's PSF (point spread function) 
-center -- for all images in the time series.
-
-## JWST - NIRCam - Level 3 TSO Pipeline
-This pipeline was commissioned to take input from the Level 2 pipeline -- having been processed through the NIRCam `ncdhas` pipeline -- and now being further processed through from a stack of images into a time series
+In order to process that data, it is important to identify the host star, accurately estimate it's PSF (point spread function) center -- for all images in the time series.
 
 **METHOD**
 
@@ -38,7 +34,10 @@ The result will be a 'DataFrame' of the same depth as the input structure, conta
     - the keys to the aperture photometry dictionary or data frame will be the float values of the aperture radii
 - 'time' (in days?)
 
----
+
+===
+Jupyter Notebook Re-written in Markdown
+===
 Load All Necessary Libraries and Functions
 ---
 
