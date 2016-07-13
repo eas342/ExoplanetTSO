@@ -41,15 +41,16 @@ Jupyter Notebook Re-written in Markdown
 Load All Necessary Libraries and Functions
 ---
 
-    `pylab`      : combination of array manipulation and plotting functions
-    `matplotlib` : specialized plotting functions
-    `numpy`      : array more manipulation functions
-    `pandas`     : dataframe -- more advanced array / table -- functions
-    `photutils`  : astropy associated package for aperture photometry
-    `astropy`    : `modeling` : access linear and gaussian functions with astropy formatting
-                   `fitting`  : access to astropy fitting routines
-    `glob`       : grab list of files in directory
-
+    `pylab`              : combination of array manipulation and plotting functions
+    `matplotlib`         : specialized plotting functions
+    `numpy`              : array more manipulation functions
+    `pandas`             : dataframe -- more advanced array / table -- functions
+    `photutils`          : astropy associated package for aperture photometry
+    `astropy`            : `modeling` : access linear and gaussian functions with astropy formatting
+                           `fitting`  : access to astropy fitting routines
+    `glob`               : grab list of files in directory
+    `image_registration  : cross correlation algorithm from Adam Ginsburg
+                           https://github.com/keflavich/image_registration
 ```python
 # Matplotlib for Plotting
 %matplotlib inline
